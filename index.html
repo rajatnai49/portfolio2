@@ -47,11 +47,23 @@
   </head>
 
   <body>
+
     <section class="colored-section" id="title">
       <div class="container-fluid">
         <div class="navigator">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="">Rajat</a>
+            <div class="theme-switches">
+
+              <div data-theme="light" class="switch" id="switch-1"></div>
+  
+              <div data-theme="sky" class="switch" id="switch-2"></div>
+  
+              <div data-theme="purple" class="switch" id="switch-3"></div>
+  
+              <div data-theme="dark" class="switch" id="switch-4"></div>
+  
+          </div>
             <button
               class="navbar-toggler"
               type="button"
@@ -78,14 +90,36 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                  <div class="container">
+                    <div class="sun sun-logo">
+                      <img src="images/sun1.png" alt="" class="si">
+                    </div>
+                    <div class="moon moon-logo">
+                      <img src="images/moon1.png" alt="" class="mi">
+                    </div>
+                </div>
+                </li>
+              
+
+               
+
+                <!-- <li class="nav-item">
+                  <input id="toggle" class="toggle" type="checkbox">
+                  <label for="toggle" class="title">Toggle dark mode</label>
+                </li> -->
+                <li class="nav-item">
+                  
+                </li>
               </ul>
             </div>
+            
           </nav>
         </div>
         <!-- Title -->
 
-        <div class="row">
-          <div class="col-lg-6 title-text">
+        <div class="opening-section">
+          <div class="title-text">
             <table>
               <tr>
                 <td>
@@ -95,7 +129,6 @@
                       class="fa-solid fa-comment"
                       style="font-weight: 100; color: rgb(219, 246, 20)"
                     ></i>
-                    <!-- <i class="fa-solid fa-ghost" style="color: yellow;"></i> -->
                   </h1>
                 </td>
               </tr>
@@ -105,19 +138,30 @@
                 </td>
               </tr>
               <tr>
-                <td><p class="small-heading">I am student at DDIT.</p></td>
+                <td>
+                  <div class="small-heading ">
+                    I am a
+                  <div class="dropping-texts">
+                    <div class="inner">Student!</div>
+                    <div class="inner">Coder!</div>
+                    <div class="inner">Programmer!</div>
+                    <div class="inner">Developer!</div>
+                  </div>
+                </div>
+                </td>
               </tr>
             </table>
           </div>
-          <div class="col-lg-6">
             <img
               class="title-image"
-              src="images/arima1.jpg"
+              src="images/avatar22.png"
               alt="iphone-mockup"
             />
-          </div>
         </div>
+
       </div>
+
+
     </section>
     <div id = "about"></div>
     <section class="ps-timeline-sec">
@@ -125,7 +169,7 @@
         <ol class="ps-timeline">
           <li>
             <div class="img-handler-top">
-              <img src="images/ava11.png" alt="" />
+              <img src="images/avat1.png" alt="" />
             </div>
             <div class="ps-bot">
               <p>
@@ -137,7 +181,7 @@
           </li>
           <li>
             <div class="img-handler-bot">
-              <img src="images/ava22.png" alt="" />
+              <img src="images/avat2.png" alt="" />
             </div>
             <div class="ps-top">
               <p>
@@ -149,7 +193,7 @@
           </li>
           <li>
             <div class="img-handler-top">
-              <img src="images/ava33.png" alt="" />
+              <img src="images/avat3.png" alt="" />
             </div>
             <div class="ps-bot">
               <p>
@@ -161,7 +205,7 @@
           </li>
           <li>
             <div class="img-handler-bot">
-              <img src="images/ava44.png" alt="" />
+              <img src="images/avat4.png" alt="" />
             </div>
             <div class="ps-top">
               <p>
@@ -175,6 +219,7 @@
       </div>
     </section>
     <div id = "skills"></div>
+
     <div class="avatar" id = "skills">
       <img class="ava" src="images/avatar.png" />
       <div class="floating first">
@@ -195,13 +240,39 @@
       <div class="floating sixth">
         <img class="skill_img" src="images/skills6.png" />
       </div>
+    </div>   
+
+
+    <div class="ttttt">
+      <section class="stage">
+        <div class="train">
+          <div class="wagon">
+    
+          </div>
+          <div class="wagon">
+            
+          </div>
+          <div class="wagon">
+            
+          </div>
+          <div class="locomotive">
+            <div class="cabin"></div>
+            <div class="motor"></div>
+            <div class="chimney">
+              <div class="smoke"></div>
+            </div>
+            <div class="light"></div>
+          </div>
+        </div>
+      </section>   
     </div>
 
-    <section class="white-section" id="skills_des">
+
+    <section class="skill-section" id="skills_des">
       <div class="row">
         <div class="skill-column col-lg-6 col-md-12">
           <div class="card">
-            <div class="card-header">
+            <div class="card-header card-head skill-dis2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -270,7 +341,7 @@
               </svg>
             </div>
 
-            <div class="card-body">
+            <div class="card-body skill-dis">
               <h4 class="skill-text">Web Development</h4>
               <p>
                 I started learning web dev because I like to create websites. I
@@ -283,7 +354,7 @@
         </div>
         <div class="skill-column col-lg-6 col-md-12">
           <div class="card">
-            <div class="card-header">
+            <div class="card-header card-head skill-dis2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -351,7 +422,7 @@
                 ></circle>
               </svg>
             </div>
-            <div class="card-body">
+            <div class="card-body skill-dis">
               <h4 class="skill-text">Programming</h4>
               <p>
                 I choose a computer science degree without not having any prior
@@ -364,7 +435,7 @@
         </div>
         <div class="skill-column col-lg-12">
           <div class="card">
-            <div class="card-header">
+            <div class="card-header card-head skill-dis2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -432,13 +503,11 @@
                 ></circle>
               </svg>
             </div>
-            <div class="card-body">
+            <div class="card-body skill-dis">
               <h4 class="skill-text">Other</h4>
               <p>
-                I choose a computer science degree without not having any prior
-                experience in programming. After taking admission I learned C &
-                C++ languages. Currently, I am learning Data Structure and
-                algorithms.
+                With all programming and stuff I want to try  something new so I started to try some other things like Video editing, 
+                Photo editing, Content Writing, Animation etc.
               </p>
             </div>
           </div>
@@ -492,5 +561,9 @@
   </div>
   <p class="copyright">© Rajat Nai.</p>
   
+  <script src="index.js">
+    
+  </script>
+
   </body>
 </html>
